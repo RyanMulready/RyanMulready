@@ -7,6 +7,7 @@ const ryan = {
         linting: ['eslint', 'stylelint', 'prettier'],
         backEnd: {
             js: ['node', 'express', 'webpack'],
+            python: ['django'],
             db: ['mysql'],
         },
         frontEnd: {
