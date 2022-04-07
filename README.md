@@ -4,23 +4,29 @@
 const ryan = {
     contact: 'ryan.mulready@gmail.com',
     technologies: {
-        linting: ['eslint', 'stylelint', 'prettier'],
+        frontEnd: {
+            js: ['webpack', 'babel', 'vue', 'nuxt', 'storybook'],
+            scss: ['bootstrap'],
+            test: ['jest', 'wdio'],
+        },
         backEnd: {
-            js: ['node', 'express', 'webpack'],
-            python: ['django'],
+            js: ['node', 'express'],
+            python: ['pyenv', 'django', 'invoke', 'chalice'],
             db: ['mysql', 'dynamo', 'postgres'],
         },
-        frontEnd: {
-            js: ['vue', 'nuxt', 'storybook'],
-            sass: ['bootstrap'],
-            test: ['jest', 'wdio', 'mocha', 'lambdatest'],
-        },
         devOps: {
-            ci: ['jenkins', 'dependabot'],
+            ci: ['github actions', enkins', 'dependabot'],
             containers: ['docker', 'virtualbox', 'vmware'],
-            aws: ['s3', 'cloudfront', 'eb', 'ec2', 'rds', 'efs', 'bitnami'],
-            misc: ['sentry', 'newrelic', 'periscope', 'pandadoc'],
+            aws: [
+              's3', 'cloudfront', 'eb', 'ec2', 'rds', 'efs', 'bitnami', 'iam', 
+              'cognito', 'cloudformation', 'codeartifact', 'cdk',
+            ],
+            misc: ['sentry', 'newrelic', 'periscope', 'pandadoc', 'datadog'],
         },
+        linting: [
+          'eslint', 'stylelint', 'prettier', 'markdownlint' 'black', 'flake8', 
+          'isort', 'markdownlint', 'commitlint', 'yamllint',
+        ],
     },
 };
 ```
