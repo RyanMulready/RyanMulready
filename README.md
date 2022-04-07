@@ -8,7 +8,7 @@ const ryan = {
         backEnd: {
             js: ['node', 'express', 'webpack'],
             python: ['django'],
-            db: ['mysql'],
+            db: ['mysql', 'dynamo', 'postgres'],
         },
         frontEnd: {
             js: ['vue', 'nuxt', 'storybook'],
