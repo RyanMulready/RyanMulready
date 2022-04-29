@@ -5,27 +5,28 @@ const ryan = {
     contact: 'ryan.mulready@gmail.com',
     technologies: {
         frontEnd: {
-            js: ['webpack', 'babel', 'vue', 'nuxt', 'storybook'],
-            scss: ['bootstrap'],
+            js: ['webpack', 'babel', 'vue', 'nuxt', 'storybook', 'chart.js'],
+            scss: ['bootstrap', 'postcss'],
             test: ['jest', 'wdio'],
         },
         backEnd: {
-            js: ['node', 'express'],
-            python: ['pyenv', 'django', 'invoke', 'chalice'],
-            db: ['mysql', 'dynamo', 'postgres'],
+            js: ['node', 'nodenv', 'express'],
+            python: ['pip', 'pyenv', 'django', 'invoke'],
+            db: ['mysql'],
         },
         devOps: {
-            ci: ['github actions', enkins', 'dependabot'],
-            containers: ['docker', 'virtualbox', 'vmware'],
+            ci: ['github actions', 'Jenkins', 'dependabot'],
+            containers: ['docker', 'virtualbox', 'vmware', 'vagrant'],
             aws: [
-              's3', 'cloudfront', 'eb', 'ec2', 'rds', 'efs', 'bitnami', 'iam', 
-              'cognito', 'cloudformation', 'codeartifact', 'cdk',
+              's3', 'cloudfront', 'eb', 'ec2', 'rds', 'cognito', 'lambda', 'codeartifact',
             ],
-            misc: ['sentry', 'newrelic', 'periscope', 'pandadoc', 'datadog'],
         },
         linting: [
           'eslint', 'stylelint', 'prettier', 'markdownlint' 'black', 'flake8', 
           'isort', 'markdownlint', 'commitlint', 'yamllint',
+        ],
+        analytics: [
+          'ga', 'gtag', 'ms uat', 'facebook', 'hubspot', 'inspectlet', 'referral rock',
         ],
     },
 };
