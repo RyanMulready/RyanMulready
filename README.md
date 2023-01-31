@@ -33,10 +33,10 @@ const ryan = {
 ```
 </h3>
 <a href="https://github.com/Zhenye-Na/Zhenye-Na">
-  <img src='https://github-readme-stats.vercel.app/api?username=ryanmulready&show_icons=true&theme=onedark&hide_border=true&count_private=true' />
+  <img src='https://github-readme-stats.vercel.app/api?username=ryanmulready&show_icons=true&theme=dracula&hide_border=true&count_private=true' />
 </a>
 <a href="https://github.com/Zhenye-Na/Zhenye-Na">
-  <img src='http://github-readme-streak-stats.herokuapp.com/?user=ryanmulready&theme=onedark&hide_border=true&count_private=true' />
+  <img src='http://github-readme-streak-stats.herokuapp.com/?user=ryanmulready&theme=dracula&hide_border=true&count_private=true' />
 </a>
 
-<img src='https://github-readme-stats.vercel.app/api/top-langs/?username=ryanmulready&layout=compact&theme=onedark&hide_border=true&count_private=true&langs_count=8' />
+<img src='https://github-readme-stats.vercel.app/api/top-langs/?username=ryanmulready&layout=compact&theme=dracula&hide_border=true&count_private=true&langs_count=8' />
