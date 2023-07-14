@@ -32,8 +32,3 @@ const ryan = {
 };
 ```
 </h3>
-
-
-<img src='http://github-readme-streak-stats.herokuapp.com/?user=ryanmulready&theme=dracula&hide_border=true&count_private=true' />
-
-<img src='https://github-readme-stats.vercel.app/api/top-langs/?username=ryanmulready&layout=compact&theme=dracula&hide_border=true&count_private=true&langs_count=8' />
