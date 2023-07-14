@@ -5,20 +5,21 @@ const ryan = {
     contact: 'ryan.mulready@gmail.com',
     technologies: {
         frontEnd: {
-            js: ['webpack', 'babel', 'vue', 'nuxt', 'storybook', 'chart.js'],
-            scss: ['bootstrap', 'postcss'],
-            test: ['jest', 'wdio'],
+            js: ['webpack', 'babel', 'vue', 'nuxt', 'storybook', 'storyblok'],
+            scss: ['bootstrap', 'tailwind', 'postcss'],
+            test: ['jest', 'vitest', 'wdio', 'cypress'],
         },
         backEnd: {
-            js: ['node', 'nodenv', 'express'],
+            js: ['node', 'nodenv', 'express', 'h3'],
             python: ['pip', 'pyenv', 'django', 'invoke'],
-            db: ['mysql'],
+            db: ['mysql', 'dynamodb'],
         },
         devOps: {
-            ci: ['github actions', 'Jenkins', 'dependabot'],
+            ci: ['github actions', 'Jenkins', 'dependabot', 'renovate', 'snyk'],
             containers: ['docker', 'virtualbox', 'vmware', 'vagrant'],
             aws: [
               's3', 'cloudfront', 'eb', 'ec2', 'rds', 'cognito', 'lambda', 'codeartifact',
+              'dynamodb', 'route53', 'secretsmanager', 'cdk',
             ],
         },
         linting: [
