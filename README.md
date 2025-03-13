@@ -4,30 +4,34 @@
 const ryan = {
     contact: 'ryan.mulready@gmail.com',
     technologies: {
-        frontEnd: {
-            js: ['webpack', 'babel', 'vue', 'nuxt', 'storybook', 'storyblok'],
-            scss: ['bootstrap', 'tailwind', 'postcss'],
-            test: ['jest', 'vitest', 'wdio', 'cypress'],
+        browser: {
+            js: ['typescript', 'vue', 'nuxt', 'vuex', 'pinia'],
+            css: ['sass', 'bootstrap', 'tailwind'],
+            test: ['vitest', 'jest', 'cypress', 'playwright'],
+            monitoring: ['sentry', 'datadog'],
         },
-        backEnd: {
-            js: ['node', 'nodenv', 'express', 'h3'],
-            python: ['pip', 'pyenv', 'django', 'invoke'],
-            db: ['mysql', 'dynamodb'],
+        node: {
+            package_managers: ['npm', 'yarn', 'pnpm'],
+            build_tools: ['vite', 'webpack', 'turbo', 'lerna'],
+            frameworks: ['express', 'nestjs', 'h3'],
         },
-        devOps: {
-            ci: ['github actions', 'Jenkins', 'dependabot', 'renovate', 'snyk'],
-            containers: ['docker', 'virtualbox', 'vmware', 'vagrant'],
+        devops: {
+            ci_cd: ['bitbucket pipelines', 'github actions', 'dependabot', 'renovate', 'snyk', 'sonarqube'],
+            containers: ['docker'],
             aws: [
-              's3', 'cloudfront', 'eb', 'ec2', 'rds', 'cognito', 'lambda', 'codeartifact',
-              'dynamodb', 'route53', 'secretsmanager', 'cdk',
+                's3', 'cloudfront', 'elastic beanstalk', 'ec2', 'rds', 'cognito', 'lambda', 'codeartifact',
+                'dynamodb', 'route 53', 'secrets manager', 'cdk',
             ],
+            observability: ['grafana', 'prometheus', 'new relic'],
         },
         linting: [
-          'eslint', 'stylelint', 'prettier', 'markdownlint' 'black', 'flake8', 
-          'isort', 'markdownlint', 'commitlint', 'yamllint',
+            'eslint', 'stylelint', 'prettier', 'markdownlint', 'commitlint',
         ],
         analytics: [
-          'ga', 'gtag', 'ms uat', 'facebook', 'hubspot', 'inspectlet', 'referral rock',
+            'ga', 'gtag', 'facebook', 'hubspot',
+        ],
+        tooling: [
+            'storybook', 'figma', 'jira', 'postman',
         ],
     },
 };
