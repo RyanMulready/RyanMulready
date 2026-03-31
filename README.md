@@ -6,14 +6,14 @@ const ryan = {
     technologies: {
         browser: {
             js: ['typescript', 'vue', 'nuxt', 'vuex', 'pinia'],
-            css: ['sass', 'bootstrap', 'tailwind'],
-            test: ['vitest', 'jest', 'cypress', 'playwright'],
-            monitoring: ['sentry', 'datadog'],
+            css: ['sass', 'tailwind', 'unocss'],
+            test: ['vitest', 'playwright'],
+            monitoring: ['sentry', 'datadog', 'new relic', 'codecov'],
         },
         node: {
-            package_managers: ['npm', 'yarn', 'pnpm'],
-            build_tools: ['vite', 'webpack', 'turbo', 'lerna'],
-            frameworks: ['express', 'nestjs', 'h3'],
+            package_managers: ['npm', 'pnpm'],
+            build_tools: ['vite', 'turbo', 'nx'],
+            frameworks: ['nestjs', 'h3'],
         },
         devops: {
             ci_cd: ['bitbucket pipelines', 'github actions', 'dependabot', 'renovate', 'snyk', 'sonarqube'],
@@ -22,7 +22,7 @@ const ryan = {
                 's3', 'cloudfront', 'elastic beanstalk', 'ec2', 'rds', 'cognito', 'lambda', 'codeartifact',
                 'dynamodb', 'route 53', 'secrets manager', 'cdk',
             ],
-            observability: ['grafana', 'prometheus', 'new relic'],
+            observability: ['grafana', 'prometheus'],
         },
         linting: [
             'eslint', 'stylelint', 'prettier', 'markdownlint', 'commitlint',
@@ -30,8 +30,11 @@ const ryan = {
         analytics: [
             'ga', 'gtag', 'facebook', 'hubspot',
         ],
+        documentation: [
+            'storybook', 'postman', 'bruno', 'swagger'
+        ],
         tooling: [
-            'storybook', 'figma', 'jira', 'postman',
+            'figma', 'jira', 'aha'
         ],
     },
 };
