@@ -5,7 +5,7 @@ const ryan = {
     contact: 'ryan.mulready@gmail.com',
     technologies: {
         browser: {
-            js: ['typescript', 'vue', 'nuxt', 'vuex', 'pinia'],
+            js: ['typescript', 'vue', 'nuxt', 'pinia'],
             css: ['sass', 'tailwind', 'unocss'],
             test: ['vitest', 'playwright'],
             monitoring: ['sentry', 'datadog', 'new relic', 'codecov'],
